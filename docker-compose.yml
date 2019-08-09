@@ -23,7 +23,7 @@ services:
       - 'postgres'
       - 'redis'
     volumes:
-      - '.:/var/www/done-core'
+      - '.:/var/www/avispa-start'
     env_file:
       - '.env'
 
